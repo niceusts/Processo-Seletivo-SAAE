@@ -4,7 +4,6 @@ body {
 }
 
 .form-container {
-    max-width: 500px;
     margin: 0 auto;
     padding: 40px;
     background-color: #fff;
@@ -18,12 +17,15 @@ h2 {
 
 .form-group {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 label {
     display: block;
-    font-weight: bold;
     margin-bottom: 5px;
+    font-weight: 500;
 }
 
 input[type="text"],
@@ -72,3 +74,9 @@ input[type="file"] {
     }
 
 
+.divFiles, 
+.criterios, 
+.infoFiles {
+    border-top: 1px solid gray;
+    padding-top: 2rem;
+}

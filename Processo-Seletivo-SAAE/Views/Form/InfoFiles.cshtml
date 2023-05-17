@@ -1,38 +1,211 @@
 ﻿<div class="form-container">
-        <h2>Formulário de Inscrição - Programa Jovem Aprendiz</h2>
-        <form action="processar.php" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="telephone">Nome:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            <div class="form-group">
-                <label for="telephone">RG:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            <div class="form-group">
-                <label for="telephone">Orgão expedidor:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            <div class="form-group">
-                <label for="telephone">CPF:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            <div class="form-group">
-                <label for="telephone">Data nascimento:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            <div class="form-group">
-                <label for="telephone">Sexo:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="telephone">Localidade/Curso:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-            <div class="form-group">
-                <label for="telephone">Concorrer a vagas reservadas para jovens e adolescentes em situação de acolhimento institucional?</label>
-            </div>
+    <h2>Formulário de Inscrição - Programa Jovem Aprendiz</h2>
+    <form action="processar.php" method="post" enctype="multipart/form-data">
+        <section class="infoFiles">
+            <div class="row">
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Nome:</label>
+                    <input type="text" id="telephone" name="telephone" required>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">RG:</label>
+                    <input type="text" id="telephone" name="telephone" required>
+                </div>
 
-       </form>
- </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">CPF:</label>
+                    <input type="number" id="telephone" name="telephone" required>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Data nascimento:</label>
+                    <input type="number" id="telephone" name="telephone" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Localidade/Curso:</label>
+                    <input type="number" id="telephone" name="telephone" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Número de telefone pessoal do candidato e/ou do responsavel legal:</label>
+                    <input type="number" id="telephone" name="telephone" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="email">E-mail pessoal do candidato e/ou do responsavel legal:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="socialName">Opção pelo uso do nome social, caso assim deseje:</label>
+                    <input type="text" id="socialName" name="socialName" required>
+                </div>
+
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Concorrer a vagas reservadas para jovens e adolescentes em situação de acolhimento institucional?</label>
+                    <select class="form-select">
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Sexo</label>
+                    <select class="form-select">
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Orgão expedidor:</label>
+                    <select class="form-select">
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="criterios">
+            <div class="row">
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Renda Familiar(BRUTA)</label>
+                    <select class="form-select">
+                        <option>Até R$ 3.906,00 (3 salários mínimos) </option>
+                        <option>De R$ 3.906,00 (3 s.m.) a R$ 6.510,00 (5 s.m.)</option>
+                        <option>Acima de R$ 6.510,00 (5 s.m.)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Ano que está cursando</label>
+                    <select class="form-select">
+                        <option>9° ano — Ensino Fundamental </option>
+                        <option>1° ano — Ensino médio </option>
+                        <option>2º ano — Ensino médio </option>
+                        <option>3° ano — Ensino médio </option>
+                        <option>3° ano — Ensino médio </option>
+                        <option>Ensino médio completo (sem cursar ensino superior)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="telephone">Média geral boletim(2022):</label>
+                    <select class="form-select">
+                        <option>Média 10,0 </option>
+                        <option>Média 9,0 </option>
+                        <option>Média 8,0 </option>
+                        <option>Média 7,0 </option>
+                        <option>Abaixo de 7,0 </option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="divFiles">
+
+            <div class="row">
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="rg">Carteira de Identidade (RG):</label>
+                    <input type="file" id="rg" name="rg" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="cpf">Cadastro de Pessoa Física (CPF):</label>
+                    <input type="file" id="cpf" name="cpf" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="certidao">Certidão de Nascimento ou Certidão de Casamento:</label>
+                    <input type="file" id="certidao" name="certidao" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="titulo">Título Eleitoral (apenas para maiores de 18 anos):</label>
+                    <input type="file" id="titulo" name="titulo">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="comprovante">Comprovante de Votação e/ou Certidão de Quitação Eleitoral (apenas para maiores de 18 anos):</label>
+                    <input type="file" id="comprovante" name="comprovante">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="pis">Comprovante de Inscrição no PIS/PASEP (se possuir):</label>
+                    <input type="file" id="pis" name="pis">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="servico-militar">Quitação com o Serviço Militar Reservista (para candidatos do sexo masculino maiores de 18 anos, não será aceito o Certificado de Alistamento Militar - CAM):</label>
+                    <input type="file" id="servico-militar" name="servico-militar">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="certidao-filhos">Certidão de Nascimento dos filhos, se o candidato possuir filhos menores de 18 anos:</label>
+                    <input type="file" id="certidao-filhos" name="certidao-filhos">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="autorizacao">Autorização para inscrição e participação no Programa de Seleção Jovem Aprendiz do SAAE/Estância assinada pelo responsável, caso o candidato seja menor de 18 anos (o modelo está disponível na página de inscrição):</label>
+                    <input type="file" id="autorizacao" name="autorizacao">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="rg-responsavel">Carteira de Identidade e CPF do responsável legal, caso o candidato seja menor de 18 anos:</label>
+                    <input type="file" id="rg-responsavel" name="rg-responsavel">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="comprovante-residencia">Comprovante de Residência atualizado em nome do candidato ou do responsável legal:</label>
+                    <input type="file" id="comprovante-residencia" name="comprovante-residencia">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="declaracao-escolar">Declaração de Matrícula e Frequência Escolar referente ao ano letivo de 2022:</label>
+                    <input type="file" id="declaracao-escolar" name="declaracao-escolar">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="historico-escolar">Histórico Escolar do último ano letivo concluído:</label>
+                    <input type="file" id="historico-escolar" name="historico-escolar">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="comprovante-programas-sociais">Comprovante de que é beneficiário de programas sociais do governo federal, estadual ou municipal, se aplicável:</label>
+                    <input type="file" id="comprovante-programas-sociais" name="comprovante-programas-sociais">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="foto">Fotografia 3x4 tirada nos últimos 2 anos:</label>
+                    <input type="file" id="foto" name="foto">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="comprovante-renda">Comprovante de Renda Familiar (a renda familiar é a soma de todas as rendas do grupo familiar):</label>
+                    <input type="file" id="comprovante-renda" name="comprovante-renda">
+                </div>
+            </div>
+        </section>
+
+        <button class="btn btn-primary" onclick="showConfirmation()">Enviar</button>
+
+    </form>
+</div>
+
+<script>
+    function showConfirmation() {
+        Swal.fire({
+            title: 'Tem certeza que deseja enviar todas essas informções?',
+            showDenyButton: true,
+            input: submit,
+            confirmButtonText: 'Enviar',
+            denyButtonText: `Cancelar`,
+        }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+                Swal.fire('Enviado', '', 'success').submite
+            } else if (result.isDenied) {
+                Swal.fire('Changes are not saved', '', 'info')
+            }
+        })
+    }
+</script>

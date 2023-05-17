@@ -1,201 +1,101 @@
-﻿    <div class="form-container">
-        <h2>Formulário de Inscrição - Programa Jovem Aprendiz</h2>
-        <form action="processar.php" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="telephone">Número de telefone pessoal do candidato e/ou responsável legal:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email pessoal do candidato e/ou do responsável legal:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="socialName">Opção pelo uso do nome social, caso assim deseje:</label>
-                <input type="text" id="socialName" name="socialName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="rg">Carteira de Identidade (RG):</label>
-                <input type="file" id="rg" name="rg" required>
-            </div>
-
-            <div class="form-group">
-                <label for="cpf">Cadastro de Pessoa Física (CPF):</label>
-                <input type="file" id="cpf" name="cpf" required>
-            </div>
-
-            <div class="form-group">
-                <label for="certidao">Certidão de Nascimento ou Certidão de Casamento:</label>
-                <input type="file" id="certidao" name="certidao" required>
-            </div>
-
-            <div class="form-group">
-                <label for="titulo">Título Eleitoral (apenas para maiores de 18 anos):</label>
-                <input type="file" id="titulo" name="titulo">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante">Comprovante de Votação e/ou Certidão de Quitação Eleitoral (apenas para maiores de 18 anos):</label>
-                <input type="file" id="comprovante" name="comprovante">
-            </div>
-
-            <div class="form-group">
-                <label for="pis">Comprovante de Inscrição no PIS/PASEP (se possuir):</label>
-                <input type="file" id="pis" name="pis">
-            </div>
-
-            <div class="form-group">
-                <label for="servico-militar">Quitação com o Serviço Militar Reservista (para candidatos do sexo masculino maiores de 18 anos, não será aceito o Certificado de Alistamento Militar - CAM):</label>
-                <input type="file" id="servico-militar" name="servico-militar">
-            </div>
-
-            <div class="form-group">
-                <label for="certidao-filhos">Certidão de Nascimento dos filhos, se o candidato possuir filhos menores de 18 anos:</label>
-                <input type="file" id="certidao-filhos" name="certidao-filhos">
-            </div>
-
-            <div class="form-group">
-                <label for="autorizacao">Autorização para inscrição e participação no Programa de Seleção Jovem Aprendiz do SAAE/Estância assinada pelo responsável, caso o candidato seja menor de 18 anos (o modelo está disponível na página de inscrição):</label>
-                <input type="file" id="autorizacao" name="autorizacao">
-            </div>
-
-            <div class="form-group">
-                <label for="rg-responsavel">Carteira de Identidade e CPF do responsável legal, caso o candidato seja menor de 18 anos:</label>
-                <input type="file" id="rg-responsavel" name="rg-responsavel">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante-residencia">Comprovante de Residência atualizado em nome do candidato ou do responsável legal:</label>
-                <input type="file" id="comprovante-residencia" name="comprovante-residencia">
-            </div>
-
-            <div class="form-group">
-                <label for="declaracao-escolar">Declaração de Matrícula e Frequência Escolar referente ao ano letivo de 2022:</label>
-                <input type="file" id="declaracao-escolar" name="declaracao-escolar">
-            </div>
-
-            <div class="form-group">
-                <label for="historico-escolar">Histórico Escolar do último ano letivo concluído:</label>
-                <input type="file" id="historico-escolar" name="historico-escolar">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante-programas-sociais">Comprovante de que é beneficiário de programas sociais do governo federal, estadual ou municipal, se aplicável:</label>
-                <input type="file" id="comprovante-programas-sociais" name="comprovante-programas-sociais">
-            </div>
-
-            <div class="form-group">
-                <label for="foto">Fotografia 3x4 tirada nos últimos 2 anos:</label>
-                <input type="file" id="foto" name="foto">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante-renda">Comprovante de Renda Familiar (a renda familiar é a soma de todas as rendas do grupo familiar):</label>
-                <input type="file" id="comprovante-renda" name="comprovante-renda">
-            </div>
-
-            <button type="submit">Enviar</button>
-        </form>
-        </div>    <div class="form-container">
-        <h2>Formulário de Inscrição - Programa Jovem Aprendiz</h2>
-        <form action="processar.php" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="telephone">Número de telefone pessoal do candidato e/ou responsável legal:</label>
-                <input type="number" id="telephone" name="telephone" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email pessoal do candidato e/ou do responsável legal:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="socialName">Opção pelo uso do nome social, caso assim deseje:</label>
-                <input type="text" id="socialName" name="socialName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="rg">Carteira de Identidade (RG):</label>
-                <input type="file" id="rg" name="rg" required>
-            </div>
-
-            <div class="form-group">
-                <label for="cpf">Cadastro de Pessoa Física (CPF):</label>
-                <input type="file" id="cpf" name="cpf" required>
-            </div>
-
-            <div class="form-group">
-                <label for="certidao">Certidão de Nascimento ou Certidão de Casamento:</label>
-                <input type="file" id="certidao" name="certidao" required>
-            </div>
-
-            <div class="form-group">
-                <label for="titulo">Título Eleitoral (apenas para maiores de 18 anos):</label>
-                <input type="file" id="titulo" name="titulo">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante">Comprovante de Votação e/ou Certidão de Quitação Eleitoral (apenas para maiores de 18 anos):</label>
-                <input type="file" id="comprovante" name="comprovante">
-            </div>
-
-            <div class="form-group">
-                <label for="pis">Comprovante de Inscrição no PIS/PASEP (se possuir):</label>
-                <input type="file" id="pis" name="pis">
-            </div>
-
-            <div class="form-group">
-                <label for="servico-militar">Quitação com o Serviço Militar Reservista (para candidatos do sexo masculino maiores de 18 anos, não será aceito o Certificado de Alistamento Militar - CAM):</label>
-                <input type="file" id="servico-militar" name="servico-militar">
-            </div>
-
-            <div class="form-group">
-                <label for="certidao-filhos">Certidão de Nascimento dos filhos, se o candidato possuir filhos menores de 18 anos:</label>
-                <input type="file" id="certidao-filhos" name="certidao-filhos">
-            </div>
-
-            <div class="form-group">
-                <label for="autorizacao">Autorização para inscrição e participação no Programa de Seleção Jovem Aprendiz do SAAE/Estância assinada pelo responsável, caso o candidato seja menor de 18 anos (o modelo está disponível na página de inscrição):</label>
-                <input type="file" id="autorizacao" name="autorizacao">
-            </div>
-
-            <div class="form-group">
-                <label for="rg-responsavel">Carteira de Identidade e CPF do responsável legal, caso o candidato seja menor de 18 anos:</label>
-                <input type="file" id="rg-responsavel" name="rg-responsavel">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante-residencia">Comprovante de Residência atualizado em nome do candidato ou do responsável legal:</label>
-                <input type="file" id="comprovante-residencia" name="comprovante-residencia">
-            </div>
-
-            <div class="form-group">
-                <label for="declaracao-escolar">Declaração de Matrícula e Frequência Escolar referente ao ano letivo de 2022:</label>
-                <input type="file" id="declaracao-escolar" name="declaracao-escolar">
-            </div>
-
-            <div class="form-group">
-                <label for="historico-escolar">Histórico Escolar do último ano letivo concluído:</label>
-                <input type="file" id="historico-escolar" name="historico-escolar">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante-programas-sociais">Comprovante de que é beneficiário de programas sociais do governo federal, estadual ou municipal, se aplicável:</label>
-                <input type="file" id="comprovante-programas-sociais" name="comprovante-programas-sociais">
-            </div>
-
-            <div class="form-group">
-                <label for="foto">Fotografia 3x4 tirada nos últimos 2 anos:</label>
-                <input type="file" id="foto" name="foto">
-            </div>
-
-            <div class="form-group">
-                <label for="comprovante-renda">Comprovante de Renda Familiar (a renda familiar é a soma de todas as rendas do grupo familiar):</label>
-                <input type="file" id="comprovante-renda" name="comprovante-renda">
-            </div>
-
-            <button type="submit">Enviar</button>
-        </form>
+﻿<div class="form-container">
+    <h2>Formulário de Inscrição - Programa Jovem Aprendiz</h2>
+    <form action="processar.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="telephone">Número de telefone pessoal do candidato e/ou responsável legal:</label>
+            <input type="number" id="telephone" name="telephone" required>
         </div>
+
+        <div class="form-group">
+            <label for="email">Email pessoal do candidato e/ou do responsável legal:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="socialName">Opção pelo uso do nome social, caso assim deseje:</label>
+            <input type="text" id="socialName" name="socialName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="rg">Carteira de Identidade (RG):</label>
+            <input type="file" id="rg" name="rg" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cpf">Cadastro de Pessoa Física (CPF):</label>
+            <input type="file" id="cpf" name="cpf" required>
+        </div>
+
+        <div class="form-group">
+            <label for="certidao">Certidão de Nascimento ou Certidão de Casamento:</label>
+            <input type="file" id="certidao" name="certidao" required>
+        </div>
+
+        <div class="form-group">
+            <label for="titulo">Título Eleitoral (apenas para maiores de 18 anos):</label>
+            <input type="file" id="titulo" name="titulo">
+        </div>
+
+        <div class="form-group">
+            <label for="comprovante">Comprovante de Votação e/ou Certidão de Quitação Eleitoral (apenas para maiores de 18 anos):</label>
+            <input type="file" id="comprovante" name="comprovante">
+        </div>
+
+        <div class="form-group">
+            <label for="pis">Comprovante de Inscrição no PIS/PASEP (se possuir):</label>
+            <input type="file" id="pis" name="pis">
+        </div>
+
+        <div class="form-group">
+            <label for="servico-militar">Quitação com o Serviço Militar Reservista (para candidatos do sexo masculino maiores de 18 anos, não será aceito o Certificado de Alistamento Militar - CAM):</label>
+            <input type="file" id="servico-militar" name="servico-militar">
+        </div>
+
+        <div class="form-group">
+            <label for="certidao-filhos">Certidão de Nascimento dos filhos, se o candidato possuir filhos menores de 18 anos:</label>
+            <input type="file" id="certidao-filhos" name="certidao-filhos">
+        </div>
+
+        <div class="form-group">
+            <label for="autorizacao">Autorização para inscrição e participação no Programa de Seleção Jovem Aprendiz do SAAE/Estância assinada pelo responsável, caso o candidato seja menor de 18 anos (o modelo está disponível na página de inscrição):</label>
+            <input type="file" id="autorizacao" name="autorizacao">
+        </div>
+
+        <div class="form-group">
+            <label for="rg-responsavel">Carteira de Identidade e CPF do responsável legal, caso o candidato seja menor de 18 anos:</label>
+            <input type="file" id="rg-responsavel" name="rg-responsavel">
+        </div>
+
+        <div class="form-group">
+            <label for="comprovante-residencia">Comprovante de Residência atualizado em nome do candidato ou do responsável legal:</label>
+            <input type="file" id="comprovante-residencia" name="comprovante-residencia">
+        </div>
+
+        <div class="form-group">
+            <label for="declaracao-escolar">Declaração de Matrícula e Frequência Escolar referente ao ano letivo de 2022:</label>
+            <input type="file" id="declaracao-escolar" name="declaracao-escolar">
+        </div>
+
+        <div class="form-group">
+            <label for="historico-escolar">Histórico Escolar do último ano letivo concluído:</label>
+            <input type="file" id="historico-escolar" name="historico-escolar">
+        </div>
+
+        <div class="form-group">
+            <label for="comprovante-programas-sociais">Comprovante de que é beneficiário de programas sociais do governo federal, estadual ou municipal, se aplicável:</label>
+            <input type="file" id="comprovante-programas-sociais" name="comprovante-programas-sociais">
+        </div>
+
+        <div class="form-group">
+            <label for="foto">Fotografia 3x4 tirada nos últimos 2 anos:</label>
+            <input type="file" id="foto" name="foto">
+        </div>
+
+        <div class="form-group">
+            <label for="comprovante-renda">Comprovante de Renda Familiar (a renda familiar é a soma de todas as rendas do grupo familiar):</label>
+            <input type="file" id="comprovante-renda" name="comprovante-renda">
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>    
